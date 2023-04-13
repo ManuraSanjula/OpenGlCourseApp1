@@ -8,7 +8,7 @@ class Texture
 {
 public:
 	Texture();
-	Texture(std::string fileLoc);
+	Texture(std::string loc);
 
 	void LoadTexture();
 	void UseTexture();
@@ -19,6 +19,7 @@ public:
 private:
 	GLuint textureID;
 	int width, height, bitDepth;
+
 	std::string fileLocation;
 };
 
