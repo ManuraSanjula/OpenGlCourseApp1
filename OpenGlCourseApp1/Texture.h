@@ -8,7 +8,7 @@ class Texture
 {
 public:
 	Texture();
-	Texture(std::string loc);
+	Texture(std::string fileLoc);
 
 	void LoadTexture();
 	void UseTexture();

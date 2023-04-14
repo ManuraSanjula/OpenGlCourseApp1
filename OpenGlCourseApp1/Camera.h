@@ -1,8 +1,10 @@
 #pragma once
 
 #include <GL\glew.h>
+
 #include <glm.hpp>
 #include <gtc\matrix_transform.hpp>
+
 #include <glfw3.h>
 
 class Camera
@@ -35,5 +37,4 @@ private:
 
 	void update();
 };
-
 
