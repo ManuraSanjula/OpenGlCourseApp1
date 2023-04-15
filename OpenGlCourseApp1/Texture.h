@@ -10,7 +10,9 @@ public:
 	Texture();
 	Texture(std::string fileLoc);
 
-	void LoadTexture();
+	bool LoadTexture();
+	bool LoadTextureA();
+
 	void UseTexture();
 	void ClearTexture();
 

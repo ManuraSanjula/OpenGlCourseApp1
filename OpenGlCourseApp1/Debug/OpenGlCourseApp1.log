@@ -1,4 +1,3 @@
-﻿  Texture.cpp
-C:\Users\MSI\source\repos\OpenGlCourseApp1\OpenGlCourseApp1\Texture.cpp(28,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+﻿  Model.cpp
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   OpenGlCourseApp1.vcxproj -> C:\Users\MSI\source\repos\OpenGlCourseApp1\Debug\OpenGlCourseApp1.exe
